@@ -1,0 +1,30 @@
+{
+  "name": "zhieq/laravel-verification-code",
+  "description": "zhieq group verification code manager",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "zhieq",
+      "email": "developer@zhieq.com"
+    }
+  ],
+  "require": {
+    "laravel/framework": "5.*",
+    "ext-json": "*",
+    "zhieq/laravel-contracts": "^1.0",
+    "zhieq/laravel-sms": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "ZhiEq\\VerificationCode": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "ZhiEq\\VerificationCode\\VerificationCodeServiceProvider"
+      ]
+    }
+  }
+}
