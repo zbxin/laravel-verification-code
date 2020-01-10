@@ -10,7 +10,7 @@
     }
   ],
   "require": {
-    "laravel/framework": "5.*",
+    "laravel/framework": "*",
     "ext-json": "*",
     "zhieq/laravel-contracts": "^1.0",
     "zhieq/laravel-sms": "^1.0"
