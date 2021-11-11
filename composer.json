@@ -1,29 +1,29 @@
 {
-  "name": "zhieq/laravel-verification-code",
-  "description": "zhieq group verification code manager",
+  "name": "zbxin/laravel-verification-code",
+  "description": "verification code manager",
   "type": "library",
   "license": "MIT",
   "authors": [
     {
-      "name": "zhieq",
-      "email": "developer@zhieq.com"
+      "name": "zbxin",
+      "email": "developer@zbxin.com"
     }
   ],
   "require": {
     "laravel/framework": "*",
     "ext-json": "*",
-    "zhieq/laravel-contracts": "^1.0",
-    "zhieq/laravel-sms": "^1.0"
+    "zbxin/laravel-contracts": "^1.0",
+    "zbxin/laravel-sms": "^1.0"
   },
   "autoload": {
     "psr-4": {
-      "ZhiEq\\VerificationCode\\": "src"
+      "zbxin\\VerificationCode\\": "src"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "ZhiEq\\VerificationCode\\VerificationCodeServiceProvider"
+        "zbxin\\VerificationCode\\VerificationCodeServiceProvider"
       ]
     }
   }
