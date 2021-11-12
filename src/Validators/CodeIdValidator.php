@@ -1,9 +1,9 @@
 <?php
 
-namespace ZhiEq\VerificationCode\Validators;
+namespace Zbxin\VerificationCode\Validators;
 
-use ZhiEq\Contracts\Validator;
-use ZhiEq\VerificationCode\VerificationCodeManager;
+use Zbxin\Contracts\Validator;
+use Zbxin\VerificationCode\VerificationCodeManager;
 
 class CodeIdValidator extends Validator
 {

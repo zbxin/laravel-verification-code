@@ -17,13 +17,13 @@
   },
   "autoload": {
     "psr-4": {
-      "zbxin\\VerificationCode\\": "src"
+      "Zbxin\\VerificationCode\\": "src"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "zbxin\\VerificationCode\\VerificationCodeServiceProvider"
+        "Zbxin\\VerificationCode\\VerificationCodeServiceProvider"
       ]
     }
   }

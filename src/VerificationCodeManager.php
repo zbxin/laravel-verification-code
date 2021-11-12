@@ -1,6 +1,6 @@
 <?php
 
-namespace ZhiEq\VerificationCode;
+namespace Zbxin\VerificationCode;
 
 use Carbon\Carbon;
 use Ramsey\Uuid\Uuid;

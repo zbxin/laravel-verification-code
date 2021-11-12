@@ -1,6 +1,6 @@
 <?php
 
-namespace ZhiEq\VerificationCode;
+namespace Zbxin\VerificationCode;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Validator;
@@ -26,7 +26,7 @@ class VerificationCodeServiceProvider extends ServiceProvider
 
     public function boot()
     {
-        Validator::extend('verification_code', 'ZhiEq\VerificationCode\Validators\VerificationCodeValidator@validator');
-        Validator::extend('verification_code_id', 'ZhiEq\VerificationCode\Validators\CodeIdValidator@validator');
+        Validator::extend('verification_code', 'Zbxin\VerificationCode\Validators\VerificationCodeValidator@validator');
+        Validator::extend('verification_code_id', 'Zbxin\VerificationCode\Validators\CodeIdValidator@validator');
     }
 }
